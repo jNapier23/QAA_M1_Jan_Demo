@@ -1,0 +1,1 @@
+test entering text into file via CMD
