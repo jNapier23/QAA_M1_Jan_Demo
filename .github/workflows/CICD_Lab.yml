@@ -22,7 +22,7 @@ jobs:
     - run: ls
     - run: mkdir testDir
     - run: ls
-    - run: mv * (!testDir) testDir/
+    - run: mv !(testDir) testDir/
     - run: ls
     - run: cd testDir/
     - run: ls
