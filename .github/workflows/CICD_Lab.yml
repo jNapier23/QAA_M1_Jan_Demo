@@ -2,6 +2,10 @@ name: CICD Lab
 
 on: [push]
 
+env: 
+  GLOBAL_VAR: "this is a global variable"
+  SECRET_VAR: ${{ secrets.SECRET_PASSWORD }}
+
 jobs: 
   job1: 
     runs-on: ubuntu-latest
