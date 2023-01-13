@@ -3,18 +3,12 @@ name: CICD Lab
 on: [push]
 
 jobs: 
-  script_1: 
+  job1: 
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: ls
-    - run: pwd
-    - run: touch test1.txt
-    - run: echo "Hello world" >> test1.txt
-    - run: cat test1.txt
-    - run: rm test1.txt
-    - run: ls
-    
+    - run: chmod +x /script_1
+
   script_2:
     runs-on: ubuntu-latest
     steps: 
