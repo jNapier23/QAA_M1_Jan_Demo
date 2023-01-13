@@ -1,0 +1,11 @@
+name: GitHub Hello Workflow
+
+on: [push]
+
+jobs: 
+  HelloWorld_Test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello World!"
+    - run: touch test.txt
+    
