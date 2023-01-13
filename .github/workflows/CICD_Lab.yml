@@ -10,12 +10,9 @@ jobs:
     - run: chmod +x ./script_1.sh
     - run: ./script_1.sh
 
-  script_2:
+  job2:
     runs-on: ubuntu-latest
     steps: 
     - uses: actions/checkout@v3
-    - run: ls
-    - run: mkdir testDir
-    - run: ls
-    - run: mv cafe.yaml feature2.md hello.txt id.txt merge.txt testDir/
-    - run: echo *
+    - run: chmod +x ./script_2.sh
+    - run: ./script_2.sh
