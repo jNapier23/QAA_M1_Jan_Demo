@@ -1,0 +1,8 @@
+one 
+left
+green
+today
+dog
+house
+
+
