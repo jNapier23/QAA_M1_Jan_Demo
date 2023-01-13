@@ -8,3 +8,6 @@ keys
 
 #allow below files
 !hello.txt
+
+#Ignore the following directories
+/secrets/*
