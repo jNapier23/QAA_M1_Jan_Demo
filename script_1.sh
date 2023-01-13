@@ -1,5 +1,8 @@
 #! /bin/bash
 
+##Variables
+GLOBAL_VAR: "This is a global variable"
+SECRECT_VAR: ${{ secrets.SECRET_PASSWORD }}
 
 ls
 pwd
@@ -8,3 +11,6 @@ echo "Hello world" >> test1.txt
 cat test1.txt
 rm test1.txt
 ls
+
+echo GLOBAL_VAR
+echo SECRET_VAR
