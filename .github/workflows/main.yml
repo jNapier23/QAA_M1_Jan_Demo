@@ -14,3 +14,5 @@ jobs:
     - run: ls
     - uses: actions/checkout@v3
     - run: ls
+    - run: chmod +x buildScript.sh
+    - run: ./buildScript.sh
