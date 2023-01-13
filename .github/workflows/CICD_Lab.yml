@@ -5,10 +5,13 @@ on: [push]
 jobs: 
   job1: 
     runs-on: ubuntu-latest
+    env: 
+      job_var: "This is a job variable"
     steps:
     - uses: actions/checkout@v3
     - run: chmod +x ./script_1.sh
     - run: ./script_1.sh
+    - run: echo job_var
 
   job2:
     runs-on: ubuntu-latest
