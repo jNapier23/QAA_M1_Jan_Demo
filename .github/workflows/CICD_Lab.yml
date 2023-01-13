@@ -1,0 +1,16 @@
+name: CICD Lab 
+
+on: [push]
+
+jobs: 
+  script_1: 
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: ls
+    - run: pwd
+    - run: touch test1.txt
+    - run: nano test1.txt "Hello world"
+    - run: cat test1.txt
+    - run: rm test1.txt
+    
