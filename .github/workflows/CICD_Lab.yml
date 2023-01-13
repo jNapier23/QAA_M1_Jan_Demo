@@ -8,6 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: chmod +x ./script_1.sh
+    - run: ./script_1.sh
 
   script_2:
     runs-on: ubuntu-latest
