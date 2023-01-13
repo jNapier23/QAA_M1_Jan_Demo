@@ -1,9 +1,5 @@
 #! /bin/bash
 
-##Variables
-GLOBAL_VAR: "This is a global variable"
-SECRECT_VAR: ${{ secrets.SECRET_PASSWORD }}
-
 ls
 pwd
 touch test1.txt
