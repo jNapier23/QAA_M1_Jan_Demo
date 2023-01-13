@@ -23,8 +23,4 @@ jobs:
     - run: mkdir testDir
     - run: ls
     - run: mv cafe.yaml feature2.md hello.txt id.txt merge.txt testDir/
-    - run: ls
-    - run: cd testDir/
-    - run: ls
-    - run: cd 
     - run: echo *
