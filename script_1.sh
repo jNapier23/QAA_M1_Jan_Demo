@@ -11,6 +11,3 @@ echo "Hello world" >> test1.txt
 cat test1.txt
 rm test1.txt
 ls
-
-echo GLOBAL_VAR
-echo SECRET_VAR
