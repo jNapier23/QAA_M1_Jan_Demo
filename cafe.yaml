@@ -1,0 +1,30 @@
+orders:
+- customer_name: "Dave"
+  drink: "Coffee"
+  size: "Large"
+  extras: ["whipped cream","choc flake", "biscoff"]
+  dairy_free: false
+  food_order: 
+  - panini: "cheese"
+    donut: "jam"
+  price: 18.95
+
+- customer_name: "Sophie"
+  drink: "Tea"
+  size: "Regular"
+  extras: ["None"]
+  dairy_free: false
+  food_order: 
+  - Croissant: "Hazelnut"
+    Sandwich: "BLT"
+  price: 12.50
+
+- customer_name: "Pat"
+  drink: "Green Tea"
+  size: "Small"
+  extras: ["biscoff"]
+  dairy_free: true
+  food_order:
+  - cake: "Red Velvet"
+    pasta: "sun-dried tomato & mozarella"
+  price: 15.99
