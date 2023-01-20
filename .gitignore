@@ -3,9 +3,6 @@ password.txt
 secrets.md
 keys
 
-#ignore all text files
-*.txt
-
 #allow below files
 !hello.txt
 
